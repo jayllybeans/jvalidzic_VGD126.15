@@ -25,7 +25,7 @@ var playerData ={
 		//The idle animation 
     	idle:
 		{
-			fps:7,
+			fps:15,
 			cycle:true,
 			frames:
 			[
