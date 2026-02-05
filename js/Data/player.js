@@ -31,6 +31,7 @@ var playerData ={
 			[
 				{width:128, height:128, startX:0, startY:0},
 				{width:128, height:128, startX:128, startY:0}
+				{width:128, height:128, startX:128, startY:0}
 				
 			]
 		},
