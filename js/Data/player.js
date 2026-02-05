@@ -19,13 +19,13 @@ Properties:
 
 var playerData ={
 	info:{
-		src:`images/L0tu5_idle.png`,
+		src:`images/L0tu5_Idle.png`,
 	},
 	states:{
 		//The idle animation 
     	idle:
 		{
-			fps:7,
+			fps:3,
 			cycle:true,
 			frames:
 			[
