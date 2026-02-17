@@ -19,7 +19,7 @@ Properties:
 
 var playerData ={
 	info:{
-		src:`images/L0tu5_Idle.png`,
+		src:`images/L0tu5_SpriteSheet.jpg`,
 	},
 	states:{
 		//The idle animation 
