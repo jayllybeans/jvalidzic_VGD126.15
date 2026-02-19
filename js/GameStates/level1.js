@@ -70,7 +70,7 @@ sky.img.src = `images/skyBackground.png`
 
 //repeating background
 var rbg = new GameObject({x:level.x, y:level.y, width:1024, height:512})
-rbg.img.src=`images/repeatBackgrond.png`
+rbg.img.src=`images/repeatBackground.png`
 
 //middleground
 var bg = new GameObject({x:level.x,y:level.y, width:canvas.width*4, height:canvas.height})
