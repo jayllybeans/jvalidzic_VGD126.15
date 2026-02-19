@@ -59,7 +59,7 @@ var levelItems=new Group();
 levelItems.add([caveBack.grid, ground, plat, cave.grid]);
 
 //Very back background
-var sky = new GameObject({width:canvas.width, height:canvas.height, color:"cyan"})
+var sky = new GameObject({width:canvas.width, height:canvas.height})
 sky.img.src = `images/skyBackground.png`
 
 /*
