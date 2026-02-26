@@ -109,6 +109,7 @@ gameStates[`level1`] = function()
 	{
 		wiz.top={x:0,y:0};
 		wiz.changeState(`crouch`)
+		sounds.play(`nuhuh`,1)
 	}
 	else
 	{
@@ -141,7 +142,7 @@ gameStates[`level1`] = function()
 		wiz.canJump = false;
 		wiz.vy = wiz.jumpHeight;
 		wiz.changeState(`jump`)
-		//sounds.play(`splode`,1)
+		sounds.play(`splode`,1)
 	}
 	shotTimer--;
 	if(shotTimer <=0)
