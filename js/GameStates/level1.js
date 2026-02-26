@@ -109,7 +109,7 @@ gameStates[`level1`] = function()
 	{
 		wiz.top={x:0,y:0};
 		wiz.changeState(`crouch`)
-		sounds.play(`nuhuh`,1)
+		sounds.play(`nuhuh`, 0)
 	}
 	else
 	{
@@ -142,7 +142,7 @@ gameStates[`level1`] = function()
 		wiz.canJump = false;
 		wiz.vy = wiz.jumpHeight;
 		wiz.changeState(`jump`)
-		sounds.play(`splode`,1)
+		sounds.play(`splode`, 0)
 	}
 	shotTimer--;
 	if(shotTimer <=0)
@@ -168,7 +168,7 @@ gameStates[`level1`] = function()
 			bullets[currentBullet].y = wiz.y + 20;
 			bullets[currentBullet].dir = wiz.dir;
 			
-			//sounds.play(`splode`,1)
+			sounds.play(`yell`,0)
 
 			currentBullet++;
 			if(currentBullet>=bullets.length)
