@@ -87,6 +87,16 @@ var playerData ={
 				{width:128, height:128, startX:128, startY:512}
 				
 			]
+		},
+		//The projectile
+		projectile:
+		{
+			fps:3,
+			cycle:false,
+			frames:
+			[
+				{width:128, height:128, startX:256, startY:512}
+			]
 		}
 	}
 		
