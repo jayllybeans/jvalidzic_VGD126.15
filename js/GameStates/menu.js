@@ -34,6 +34,7 @@ gameStates[`menu`] =function(){
 		//Default Button Graphic
 		//startButton.color = `red`
 		startButton.img.src = 'images/buttonhover.png'
+		sounds.play('backgroundMusic', 0);
 	}
 	
 	menuBackground.drawStaticImage();
